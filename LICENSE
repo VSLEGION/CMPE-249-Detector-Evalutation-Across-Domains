@@ -1,0 +1,26 @@
+Academic Use Notice
+
+Copyright (c) 2026 Vaishanth Srinivasan. All rights reserved.
+
+This repository contains coursework prepared for CMPE 249. It is shared for
+academic evaluation and reference only.
+
+Permitted: viewing, cloning, and running the code to review or reproduce the
+reported experiments for educational, non-commercial purposes, with attribution
+to the author.
+
+Not permitted without the author's prior written consent: redistribution,
+commercial use, or submitting this work or any derivative of it for academic
+credit as your own.
+
+Third-party components retain their own licenses and terms, including the
+Ultralytics YOLO and RT-DETR models and framework, the COCO dataset, and the
+KITTI dataset. Pretrained weights and datasets are not distributed in this
+repository; obtain them from their original sources under their respective
+licenses.
+
+THE WORK IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
+INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A
+PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHOR BE LIABLE
+FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY ARISING FROM, OUT OF OR IN CONNECTION
+WITH THE WORK OR THE USE OR OTHER DEALINGS IN THE WORK.

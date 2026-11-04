@@ -95,3 +95,9 @@ satisfies code availability; the project repository is also at
 https://github.com/VSLEGION/CMPE-249-Detector-Evalutation-Across-Domains . Nothing is pushed,
 published or submitted automatically.
 
+## License
+
+This coursework is released under the terms in [LICENSE](LICENSE), a short
+academic-use notice. Third-party models, frameworks and datasets retain their
+own licenses.
+
