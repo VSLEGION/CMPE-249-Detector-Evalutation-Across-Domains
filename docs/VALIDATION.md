@@ -4,7 +4,7 @@ The reorganized source was checked locally in the existing `dtect` environment.
 
 | Check | Result |
 |---|---|
-| Repository/unit tests | 11 passed |
+| Repository/unit tests | 12 passed |
 | Official evaluator/data cases within the suite | 15 passed |
 | Invocation outside the repository working directory | Passed |
 | Default repository-relative input/output paths | Passed |

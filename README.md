@@ -2,7 +2,8 @@
 
 **Start with [READ_ME_FIRST.md](READ_ME_FIRST.md).**
 The primary coursework report is [reports/main_experiment_report.pdf](reports/main_experiment_report.pdf).
-Code is included in this folder; an external GitHub link is optional.
+Code is included in this folder and is also hosted at the project repository:
+https://github.com/VSLEGION/CMPE-249-Detector-Evalutation-Across-Domains
 
 ## What is included
 
@@ -90,6 +91,7 @@ See [docs/REPRODUCE.md](docs/REPRODUCE.md) for inputs and individual stages,
 [RUBRIC_CHECKLIST.md](RUBRIC_CHECKLIST.md) for evidence, and
 [SUBMISSION_MANIFEST.md](SUBMISSION_MANIFEST.md) for archive contents.
 Local configuration is intentionally ignored by Git. The included source/configuration
-satisfies code availability without inventing a GitHub URL. Nothing is pushed,
+satisfies code availability; the project repository is also at
+https://github.com/VSLEGION/CMPE-249-Detector-Evalutation-Across-Domains . Nothing is pushed,
 published or submitted automatically.
 
