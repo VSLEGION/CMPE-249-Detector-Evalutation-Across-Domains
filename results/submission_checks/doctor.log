@@ -1,0 +1,16 @@
+torch: available
+ultralytics: available
+pycocotools: available
+PIL: available
+numpy: available
+matplotlib: available
+Checkpoint yolov8n.pt: FOUND (D:\MS AEROASTRO\Sem 3\CMPE246\cmpe249_object_detection\yolov8n.pt)
+Checkpoint yolo11n.pt: FOUND (D:\MS AEROASTRO\Sem 3\CMPE246\cmpe249_object_detection\yolo11n.pt)
+Checkpoint rtdetr-l.pt: FOUND (D:\MS AEROASTRO\Sem 3\CMPE246\cmpe249_object_detection\rtdetr-l.pt)
+coco_root: C:\Users\theva\datasets\coco (found)
+kitti_root: C:\Users\theva\datasets\kitti (found)
+ADD YOUR VERIFICATION IMAGES HERE: D:\MS AEROASTRO\Sem 3\CMPE246\cmpe249_object_detection\cmpe249-detector-evaluation\CMPE 249 - Detector Evalutation Across Domains\data\verification\images
+New outputs: D:\MS AEROASTRO\Sem 3\CMPE246\cmpe249_object_detection\cmpe249-detector-evaluation\CMPE 249 - Detector Evalutation Across Domains\outputs
+CUDA: True
+GPU: NVIDIA GeForce RTX 5070 Ti Laptop GPU
+

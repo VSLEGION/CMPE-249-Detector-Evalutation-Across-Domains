@@ -1,0 +1,77 @@
+[
+  {
+    "test": "perfect",
+    "status": "PASS",
+    "evidence": "0.9999999999999998"
+  },
+  {
+    "test": "empty_predictions",
+    "status": "PASS",
+    "evidence": "0.0"
+  },
+  {
+    "test": "duplicate_detection",
+    "status": "PASS",
+    "evidence": "0.9999999999999998"
+  },
+  {
+    "test": "wrong_class",
+    "status": "PASS",
+    "evidence": "0.0"
+  },
+  {
+    "test": "wrong_localization",
+    "status": "PASS",
+    "evidence": "0.0"
+  },
+  {
+    "test": "overlapping_gt_alternative_match",
+    "status": "PASS",
+    "evidence": "2 TPs at IoU .50, alternative GT matched"
+  },
+  {
+    "test": "absent_gt_class",
+    "status": "PASS",
+    "evidence": "undefined class AP = null"
+  },
+  {
+    "test": "coordinate_conversion_and_clipping",
+    "status": "PASS",
+    "evidence": "[80.0, 30.0, 40.0, 40.0]"
+  },
+  {
+    "test": "reversed_box",
+    "status": "PASS",
+    "evidence": "correctly rejected"
+  },
+  {
+    "test": "nonfinite_box",
+    "status": "PASS",
+    "evidence": "correctly rejected"
+  },
+  {
+    "test": "missing_label",
+    "status": "PASS",
+    "evidence": "correctly rejected"
+  },
+  {
+    "test": "empty_label",
+    "status": "PASS",
+    "evidence": "legitimate empty label preserved"
+  },
+  {
+    "test": "unknown_category",
+    "status": "PASS",
+    "evidence": "correctly rejected"
+  },
+  {
+    "test": "unknown_image_id",
+    "status": "PASS",
+    "evidence": "correctly rejected"
+  },
+  {
+    "test": "duplicate_image_id",
+    "status": "PASS",
+    "evidence": "correctly rejected"
+  }
+]

@@ -1,0 +1,5 @@
+RUN verification_yolov8n attempt 1
+RUN verification_yolo11n attempt 1
+RUN verification_rtdetr-l attempt 1
+Verification complete: D:\MS AEROASTRO\Sem 3\CMPE246\cmpe249_object_detection\cmpe249-detector-evaluation\CMPE 249 - Detector Evalutation Across Domains\outputs\submission_verification_19\verification
+

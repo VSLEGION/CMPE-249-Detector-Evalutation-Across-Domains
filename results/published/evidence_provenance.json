@@ -1,0 +1,13 @@
+{
+  "original_run_id": "20261103_track_a",
+  "copied_original_files_sha256": {
+    "requirements.lock.txt": "3b7773e3a44a7e5adaa55c4cba4b6faa3bb12278e4c6df479f63ecd796436669",
+    "commands.log": "2359142dfd2f6eede2b2dd9f3dad6df56279840e0cc7eea46ad8e8ab499d0008",
+    "experiment_matrix.csv": "0dd6baa24867757c670723b40e93d4e2926d85b3082989cbed2c4d8ca4d91139",
+    "experiment_matrix.json": "5369d96d3f065ccfe82535b02b5fcd9dac54249846d25726efb7b3ef47c91c47",
+    "analysis.md": "ff6185c749c96fe12b0db5305cc6dc8eb7aabd5e06e04f2a72e1fb261fc77a0c",
+    "architecture_notes.md": "dbc22ce031dd8f574df2cadc7f902af0c6b94931eefe67ca79c653a1a03dafc6"
+  },
+  "full_prediction_archive_sha256": "637bc915d0663447a03d4c47b22c347d71358e5565053eb9f28aa15b55527a3d",
+  "new_full_experiment_run": false
+}

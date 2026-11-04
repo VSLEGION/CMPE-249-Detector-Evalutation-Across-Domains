@@ -1,0 +1,4 @@
+WARNING 'half' is deprecated and will be removed in the future. Use 'quantize' instead.
+WARNING 'half' is deprecated and will be removed in the future. Use 'quantize' instead.
+ablation_yolov8n_512_fp16: 100/200 images
+ablation_yolov8n_512_fp16: 200/200 images

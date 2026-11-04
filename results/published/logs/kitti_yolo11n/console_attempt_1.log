@@ -1,0 +1,7 @@
+WARNING 'half' is deprecated and will be removed in the future. Use 'quantize' instead.
+WARNING 'half' is deprecated and will be removed in the future. Use 'quantize' instead.
+kitti_yolo11n: 100/500 images
+kitti_yolo11n: 200/500 images
+kitti_yolo11n: 300/500 images
+kitti_yolo11n: 400/500 images
+kitti_yolo11n: 500/500 images

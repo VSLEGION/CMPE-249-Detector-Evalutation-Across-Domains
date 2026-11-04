@@ -21,6 +21,58 @@ from cmpe249_eval.runtime import run_worker
 
 
 class RepositoryTests(unittest.TestCase):
+    def test_cli_evaluate_prints_json_safe_metric_parameters(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            directory = Path(tmp)
+            gt = {
+                "info": {},
+                "images": [
+                    {"id": 91, "file_name": "scene.jpg", "width": 100, "height": 80}
+                ],
+                "categories": [{"id": 5, "name": "car"}],
+                "annotations": [
+                    {
+                        "id": 1,
+                        "image_id": 91,
+                        "category_id": 5,
+                        "bbox": [10, 10, 20, 20],
+                        "area": 400,
+                        "iscrowd": 0,
+                    }
+                ],
+            }
+            pred = [
+                {
+                    "image_id": 91,
+                    "category_id": 5,
+                    "bbox": [10, 10, 20, 20],
+                    "score": 0.99,
+                }
+            ]
+            (directory / "gt.json").write_text(json.dumps(gt))
+            (directory / "pred.json").write_text(json.dumps(pred))
+            result = subprocess.run(
+                [
+                    sys.executable,
+                    str(ROOT / "run_pipeline.py"),
+                    "evaluate",
+                    "--annotations",
+                    str(directory / "gt.json"),
+                    "--predictions",
+                    str(directory / "pred.json"),
+                    "--run",
+                    str(directory / "output"),
+                    "--no-local",
+                ],
+                cwd=tmp,
+                capture_output=True,
+                text=True,
+            )
+            self.assertEqual(result.returncode, 0, result.stdout + result.stderr)
+            metrics = json.loads(result.stdout)
+            self.assertGreater(metrics["AP"], 0.999)
+            self.assertEqual(metrics["maxDets"], [1, 10, 100])
+
     def test_subprocess_contract_uses_relocated_package(self):
         with tempfile.TemporaryDirectory() as tmp:
             run = Path(tmp)

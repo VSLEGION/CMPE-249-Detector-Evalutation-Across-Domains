@@ -1,58 +1,80 @@
-# Reproduction
+# Reproduce the project
 
-Use the existing `dtect` environment. It is outside this repository and remains
-unchanged. `requirements.txt` records the lightweight experiment packages;
-CUDA-enabled PyTorch/torchvision must match the machine. The original versions
-were PyTorch 2.14.1+cu130 and torchvision 0.29.1+cu130 on Python 3.13.6.
-Do not replace working CUDA wheels with a generic CPU installation.
+## Runtime and inputs
 
-1. Populate `weights/` with the three checkpoint files, or override `weights_dir`.
-2. Place COCO/KITTI validation data under `data/datasets/`, or override those paths.
-3. Put verification/benchmark inputs in `data/verification/images/`.
-4. Run `doctor`, then `test`, then the desired stage.
+The original experiment used Python 3.13.6, CUDA-enabled PyTorch 2.14.1+cu130,
+torchvision 0.29.1+cu130 and Ultralytics 8.4.198 in the existing `dtect`
+environment. Reuse a working CUDA environment; do not replace it merely to
+inspect the reports or run CPU checks. Package versions are in
+`results/published/requirements.lock.txt`; the portable runtime list is
+`requirements.txt`. PDF helpers use the optional `requirements-reports.txt`.
 
-Machine-local overrides belong in `configs/local.json` (ignored). Start from
-`configs/local.example.json`. Configuration paths are relative to the repository;
-absolute external dataset paths also work. `--no-local` checks committed defaults.
+Large data and checkpoints are not included in the submission archive.
+Use `weights/yolov8n.pt`, `weights/yolo11n.pt`, `weights/rtdetr-l.pt`, and:
 
-From this repository folder on the original machine:
+- COCO: `data/datasets/coco/annotations/instances_val2017.json` and `images/val2017/`.
+- Prepared KITTI: `data/datasets/kitti/kitti.yaml`, `images/val/`, `labels/val/`.
 
-```powershell
-..\dtect\Scripts\python.exe run_pipeline.py doctor
-..\dtect\Scripts\python.exe -m unittest discover -s tests -v
-..\dtect\Scripts\python.exe run_pipeline.py test --run-id smoke_cpu
-..\dtect\Scripts\python.exe run_pipeline.py prepare --run-id experiment_001
-..\dtect\Scripts\python.exe run_pipeline.py smoke --run-id experiment_001
-..\dtect\Scripts\python.exe run_pipeline.py all --run-id experiment_001
-```
+Alternatively, copy `configs/local.example.json` to ignored `configs/local.json`
+and specify existing paths. Relative paths resolve from this repository.
+On the original machine a private local override reuses the parent-project
+weights and existing datasets. `scripts/use_existing_environment.ps1` searches
+ancestor directories for the working interpreter, so folder depth is not assumed.
 
-The `test` command is CPU-only. The `smoke` stage additionally checks all three
-models on prepared KITTI images. Reusing a run ID reuses compatible inference
-jobs; changing data/configuration/code/checkpoint hashes invalidates them.
-The case matrix is 38 configurations with the defaults. The benchmark stage
-uses however many supported images you place in the verification directory.
+## Checks and verification
 
-Available stages are `prepare`, `smoke`, `coco`, `kitti`, `benchmark`, `ablation`,
-`analyze`, `package`, and `all`. Add `--run <existing-output-folder>` for an
-explicit existing run. `--run-id` accepts a name, not a path.
-
-## Evaluate saved predictions without inference
+From this folder in an activated environment:
 
 ```powershell
-python run_pipeline.py evaluate --annotations ground_truth.json --predictions predictions.json --categories person car truck --run-id reevaluation
+python run_pipeline.py doctor
+python -m unittest discover -s tests -v
+python run_pipeline.py test --run-id evaluator_check
+python run_pipeline.py verify-images --run-id verification_19
 ```
 
-This uses official COCOeval and creates evaluator arrays and metric tables in
-the new output folder. Undefined categories/size bins remain unavailable.
+The 19 supplied source images are in `data/verification/images/`.
+Verification is a fresh untimed .25-confidence pass. Generated overlays and counts
+are not ground truth. With real `data/verification/annotations.json` labels,
+the same command also evaluates those labels at the display threshold.
 
-## Reports and archives
+## Full scientific workflow
 
-Install the optional report dependencies in an appropriate reporting interpreter
-if needed (`requirements-reports.txt`). `report_python` can point to that
-interpreter without altering the CUDA environment. Without the extra, report
-content JSON is retained and the PDF build failure is recorded explicitly.
+```powershell
+python run_pipeline.py all --run-id experiment_001
+```
 
-The `package` stage exports report/code evidence separately from bulky prediction
-JSON and GT. It checks each ZIP for corruption. No GitHub upload or coursework
-submission happens as part of a local stage.
+Or run `prepare`, `smoke`, `coco`, `kitti`, `benchmark`, `ablation`,
+`analyze`, `package` separately with the same run ID.
+The CPU-only `test` command is distinct from the prepared KITTI GPU smoke stage.
+Compatible inference jobs are reused by input/configuration/code/checkpoint hashes.
+Do not treat saved results as compatible after a material environment change.
+
+## Small saved-prediction reproduction (no GPU)
+
+A converted KITTI ground truth, one original prediction export and its expected
+shared-class metrics are bundled in `results/reproduction/`.
+
+```powershell
+python run_pipeline.py evaluate --annotations results/reproduction/kitti_ground_truth.json --predictions results/reproduction/yolov8n_predictions.json --categories person car truck --run-id metric_reproduction
+```
+
+Compare `outputs/metric_reproduction/evaluation/metrics.json` to
+`results/reproduction/expected_shared_metrics.json`.
+The submission audit performs this comparison automatically.
+
+## Report sources and packaging
+
+The primary PDF is `reports/main_experiment_report.pdf` (eight pages).
+Its portable LaTeX source and figures are in `reports/main_experiment_sources/`.
+The main PDF was generated with ReportLab; its LaTeX source was not compiled on
+this machine because no TeX distribution was available.
+
+`scripts/prepare_submission.py` checks the copied project, runs the CPU suite,
+recomputes saved metrics, and creates verified ZIPs. It does not rerun full COCO
+or KITTI. Invoke it with an experiment interpreter and, for PDF inspection, a
+reporting interpreter that has pypdf available. See the submission guide.
+
+The original full prediction evidence is supplied as a separate large archive,
+excluded from the main submission ZIP. All exact commands, logs and provenance
+records identify which checks were rerun and which outputs are historical.
 

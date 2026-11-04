@@ -1,0 +1,58 @@
+classes,detections,file_name,image_id,model
+cat: 1; dog: 1,2,alec-favale-Ivzo69e18nk-unsplash.jpg,1,yolov8n.pt
+car: 10; person: 4; traffic light: 5,19,andrea-cau-nV7GJmSq3zc-unsplash.jpg,2,yolov8n.pt
+cat: 1; dog: 1,2,anusha-barwa-ppKcYi1CXcI-unsplash.jpg,3,yolov8n.pt
+car: 5; person: 7; traffic light: 1; truck: 1,14,austin-hervias-gmcw6NBAPB4-unsplash.jpg,4,yolov8n.pt
+car: 8; person: 3; traffic light: 1,12,bradley-andrews-tkg-vv2zliA-unsplash.jpg,5,yolov8n.pt
+bicycle: 2; person: 2,4,coen-van-de-broek-OFyh9TpMyM8-unsplash.jpg,6,yolov8n.pt
+person: 11; umbrella: 2,13,jason-hu-4-IDNh_Wxi4-unsplash.jpg,7,yolov8n.pt
+bicycle: 1; car: 1; person: 3,5,kseniia-poroshkova-pICfoBGRPZI-unsplash.jpg,8,yolov8n.pt
+car: 4; person: 5; traffic light: 4,13,laram-zo0a9Xbhwks-unsplash.jpg,9,yolov8n.pt
+bicycle: 11; person: 15,26,markus-spiske-WUehAgqO5hE-unsplash.jpg,10,yolov8n.pt
+bicycle: 3; person: 3,6,paolo-candelo-8tXukRrs7yk-unsplash.jpg,11,yolov8n.pt
+car: 2,2,rainy_street.jpg,12,yolov8n.pt
+bus: 1; car: 12; truck: 1,14,rezaul-karim-102abqkKhbY-unsplash.jpg,13,yolov8n.pt
+person: 19; skateboard: 1,20,ryoji-iwata-X53e51WfjlE-unsplash.jpg,14,yolov8n.pt
+bench: 1; cat: 1; dog: 1,3,sogand-khodaei-h2I1mP0LOZI-unsplash.jpg,15,yolov8n.pt
+bus: 3; car: 14; motorcycle: 3; person: 1; truck: 1,22,traffic.jpg,16,yolov8n.pt
+backpack: 1; person: 12,13,victor-rosario-Uu9UtRMPdSs-unsplash.jpg,17,yolov8n.pt
+handbag: 1; person: 14,15,vong-vathanak-B2HFSZtC_JM-unsplash.jpg,18,yolov8n.pt
+person: 9,9,xiao-liang-bTAHqmxcchE-unsplash.jpg,19,yolov8n.pt
+cat: 1; dog: 1,2,alec-favale-Ivzo69e18nk-unsplash.jpg,1,yolo11n.pt
+car: 5; person: 5; traffic light: 6,16,andrea-cau-nV7GJmSq3zc-unsplash.jpg,2,yolo11n.pt
+dog: 2,2,anusha-barwa-ppKcYi1CXcI-unsplash.jpg,3,yolo11n.pt
+car: 4; person: 8; traffic light: 1; truck: 1,14,austin-hervias-gmcw6NBAPB4-unsplash.jpg,4,yolo11n.pt
+car: 6; person: 4; traffic light: 1,11,bradley-andrews-tkg-vv2zliA-unsplash.jpg,5,yolo11n.pt
+backpack: 1; bicycle: 2; person: 2,5,coen-van-de-broek-OFyh9TpMyM8-unsplash.jpg,6,yolo11n.pt
+person: 11; umbrella: 2,13,jason-hu-4-IDNh_Wxi4-unsplash.jpg,7,yolo11n.pt
+bicycle: 1; car: 1; person: 6,8,kseniia-poroshkova-pICfoBGRPZI-unsplash.jpg,8,yolo11n.pt
+car: 1; person: 7,8,laram-zo0a9Xbhwks-unsplash.jpg,9,yolo11n.pt
+bicycle: 10; person: 15,25,markus-spiske-WUehAgqO5hE-unsplash.jpg,10,yolo11n.pt
+bicycle: 3; person: 5,8,paolo-candelo-8tXukRrs7yk-unsplash.jpg,11,yolo11n.pt
+car: 3,3,rainy_street.jpg,12,yolo11n.pt
+car: 14,14,rezaul-karim-102abqkKhbY-unsplash.jpg,13,yolo11n.pt
+person: 21; umbrella: 1,22,ryoji-iwata-X53e51WfjlE-unsplash.jpg,14,yolo11n.pt
+bench: 1; cat: 1; dog: 1,3,sogand-khodaei-h2I1mP0LOZI-unsplash.jpg,15,yolo11n.pt
+bus: 2; car: 15; motorcycle: 2; person: 1; truck: 1,21,traffic.jpg,16,yolo11n.pt
+person: 10,10,victor-rosario-Uu9UtRMPdSs-unsplash.jpg,17,yolo11n.pt
+person: 9,9,vong-vathanak-B2HFSZtC_JM-unsplash.jpg,18,yolo11n.pt
+person: 7,7,xiao-liang-bTAHqmxcchE-unsplash.jpg,19,yolo11n.pt
+cat: 1; dog: 1,2,alec-favale-Ivzo69e18nk-unsplash.jpg,1,rtdetr-l.pt
+bicycle: 1; car: 16; person: 23; traffic light: 14; truck: 1; umbrella: 1,56,andrea-cau-nV7GJmSq3zc-unsplash.jpg,2,rtdetr-l.pt
+cat: 1; dog: 1,2,anusha-barwa-ppKcYi1CXcI-unsplash.jpg,3,rtdetr-l.pt
+car: 8; clock: 1; handbag: 2; person: 15; traffic light: 11; truck: 2,39,austin-hervias-gmcw6NBAPB4-unsplash.jpg,4,rtdetr-l.pt
+bus: 2; car: 15; fire hydrant: 1; person: 6; traffic light: 5; truck: 1,30,bradley-andrews-tkg-vv2zliA-unsplash.jpg,5,rtdetr-l.pt
+backpack: 2; bicycle: 3; bottle: 3; person: 2,10,coen-van-de-broek-OFyh9TpMyM8-unsplash.jpg,6,rtdetr-l.pt
+backpack: 1; handbag: 9; person: 19; umbrella: 11,40,jason-hu-4-IDNh_Wxi4-unsplash.jpg,7,rtdetr-l.pt
+bicycle: 1; car: 1; person: 20; traffic light: 1,23,kseniia-poroshkova-pICfoBGRPZI-unsplash.jpg,8,rtdetr-l.pt
+backpack: 1; bicycle: 4; bus: 1; car: 10; motorcycle: 1; person: 22; traffic light: 14; truck: 2,55,laram-zo0a9Xbhwks-unsplash.jpg,9,rtdetr-l.pt
+bicycle: 23; person: 21,44,markus-spiske-WUehAgqO5hE-unsplash.jpg,10,rtdetr-l.pt
+backpack: 2; bicycle: 4; person: 4,10,paolo-candelo-8tXukRrs7yk-unsplash.jpg,11,rtdetr-l.pt
+car: 12; traffic light: 5,17,rainy_street.jpg,12,rtdetr-l.pt
+bus: 4; car: 30; fire hydrant: 1; person: 5; traffic light: 3; truck: 5,48,rezaul-karim-102abqkKhbY-unsplash.jpg,13,rtdetr-l.pt
+backpack: 14; handbag: 13; person: 24; suitcase: 1; umbrella: 1,53,ryoji-iwata-X53e51WfjlE-unsplash.jpg,14,rtdetr-l.pt
+bench: 2; cat: 1; dog: 1,4,sogand-khodaei-h2I1mP0LOZI-unsplash.jpg,15,rtdetr-l.pt
+bus: 7; car: 30; motorcycle: 38; person: 37; traffic light: 2; truck: 26,140,traffic.jpg,16,rtdetr-l.pt
+backpack: 4; handbag: 13; person: 15,32,victor-rosario-Uu9UtRMPdSs-unsplash.jpg,17,rtdetr-l.pt
+handbag: 11; person: 26; suitcase: 1; traffic light: 2,40,vong-vathanak-B2HFSZtC_JM-unsplash.jpg,18,rtdetr-l.pt
+car: 1; handbag: 6; person: 38; traffic light: 4,49,xiao-liang-bTAHqmxcchE-unsplash.jpg,19,rtdetr-l.pt

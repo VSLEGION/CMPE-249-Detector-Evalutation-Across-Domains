@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "checked_utc": "2026-11-04T04:28:20.025924+00:00",
+  "repository_tests_passed": 12,
+  "evaluator_assertions_passed": 15,
+  "verification_images_matching_original": 19,
+  "fresh_verification_gpu_models": 3,
+  "fresh_verification_model_images": 57,
+  "fresh_verification_scope": "unlabeled, conf=.25; not an accuracy result",
+  "saved_metrics_reproduced_exactly": true,
+  "pdf_page_counts": {
+    "main_experiment_report.pdf": 8,
+    "technical_methods_report.pdf": 8,
+    "benchmark_19_report.pdf": 22
+  },
+  "github_origin": "https://github.com/VSLEGION/CMPE-249-Detector-Evalutation-Across-Domains.git",
+  "full_coco_kitti_experiment_reexecuted": false,
+  "primary_report": "reports/main_experiment_report.pdf"
+}

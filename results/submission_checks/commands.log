@@ -1,0 +1,10 @@
+"D:\MS AEROASTRO\Sem 3\CMPE246\cmpe249_object_detection\dtect\Scripts\python.exe" -m unittest discover -s tests -v
+"D:\MS AEROASTRO\Sem 3\CMPE246\cmpe249_object_detection\dtect\Scripts\python.exe" run_pipeline.py doctor
+"D:\MS AEROASTRO\Sem 3\CMPE246\cmpe249_object_detection\dtect\Scripts\python.exe" run_pipeline.py test --run-id submission_evaluator_check
+"D:\MS AEROASTRO\Sem 3\CMPE246\cmpe249_object_detection\dtect\Scripts\python.exe" run_pipeline.py verify-images --run-id submission_verification_19
+"D:\MS AEROASTRO\Sem 3\CMPE246\cmpe249_object_detection\dtect\Scripts\python.exe" run_pipeline.py evaluate --annotations results/reproduction/kitti_ground_truth.json --predictions results/reproduction/yolov8n_predictions.json --categories person car truck --run-id submission_metric_reproduction
+"D:\MS AEROASTRO\Sem 3\CMPE246\cmpe249_object_detection\dtect\Scripts\python.exe" -m unittest discover -s tests -v
+"D:\MS AEROASTRO\Sem 3\CMPE246\cmpe249_object_detection\dtect\Scripts\python.exe" run_pipeline.py doctor
+"D:\MS AEROASTRO\Sem 3\CMPE246\cmpe249_object_detection\dtect\Scripts\python.exe" run_pipeline.py test --run-id submission_evaluator_check
+"D:\MS AEROASTRO\Sem 3\CMPE246\cmpe249_object_detection\dtect\Scripts\python.exe" run_pipeline.py verify-images --run-id submission_verification_19
+"D:\MS AEROASTRO\Sem 3\CMPE246\cmpe249_object_detection\dtect\Scripts\python.exe" run_pipeline.py evaluate --annotations results/reproduction/kitti_ground_truth.json --predictions results/reproduction/yolov8n_predictions.json --categories person car truck --run-id submission_metric_reproduction

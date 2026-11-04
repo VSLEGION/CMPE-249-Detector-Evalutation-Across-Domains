@@ -1,0 +1,622 @@
+[
+  {
+    "id": "coco_yolov8n",
+    "stage": "coco",
+    "model": "yolov8n.pt",
+    "settings": {
+      "imgsz": 512,
+      "half": false,
+      "batch": 1,
+      "device": "0",
+      "conf": 0.001,
+      "iou": 0.7,
+      "max_det": 300,
+      "rect": false
+    },
+    "dataset": "coco"
+  },
+  {
+    "id": "kitti_yolov8n",
+    "stage": "kitti",
+    "model": "yolov8n.pt",
+    "settings": {
+      "imgsz": 512,
+      "half": false,
+      "batch": 1,
+      "device": "0",
+      "conf": 0.001,
+      "iou": 0.7,
+      "max_det": 300,
+      "rect": false
+    },
+    "dataset": "kitti"
+  },
+  {
+    "id": "timing_yolov8n_baseline",
+    "stage": "benchmark",
+    "model": "yolov8n.pt",
+    "settings": {
+      "imgsz": 512,
+      "half": false,
+      "batch": 1,
+      "device": "0",
+      "conf": 0.25,
+      "iou": 0.7,
+      "max_det": 300,
+      "rect": false
+    },
+    "dataset": "benchmark"
+  },
+  {
+    "id": "timing_yolov8n_resolution_384",
+    "stage": "benchmark",
+    "model": "yolov8n.pt",
+    "settings": {
+      "imgsz": 384,
+      "half": false,
+      "batch": 1,
+      "device": "0",
+      "conf": 0.25,
+      "iou": 0.7,
+      "max_det": 300,
+      "rect": false
+    },
+    "dataset": "benchmark"
+  },
+  {
+    "id": "timing_yolov8n_resolution_640",
+    "stage": "benchmark",
+    "model": "yolov8n.pt",
+    "settings": {
+      "imgsz": 640,
+      "half": false,
+      "batch": 1,
+      "device": "0",
+      "conf": 0.25,
+      "iou": 0.7,
+      "max_det": 300,
+      "rect": false
+    },
+    "dataset": "benchmark"
+  },
+  {
+    "id": "timing_yolov8n_fp16",
+    "stage": "benchmark",
+    "model": "yolov8n.pt",
+    "settings": {
+      "imgsz": 512,
+      "half": true,
+      "batch": 1,
+      "device": "0",
+      "conf": 0.25,
+      "iou": 0.7,
+      "max_det": 300,
+      "rect": false
+    },
+    "dataset": "benchmark"
+  },
+  {
+    "id": "timing_yolov8n_conf_0.1",
+    "stage": "benchmark",
+    "model": "yolov8n.pt",
+    "settings": {
+      "imgsz": 512,
+      "half": false,
+      "batch": 1,
+      "device": "0",
+      "conf": 0.1,
+      "iou": 0.7,
+      "max_det": 300,
+      "rect": false
+    },
+    "dataset": "benchmark"
+  },
+  {
+    "id": "timing_yolov8n_conf_0.5",
+    "stage": "benchmark",
+    "model": "yolov8n.pt",
+    "settings": {
+      "imgsz": 512,
+      "half": false,
+      "batch": 1,
+      "device": "0",
+      "conf": 0.5,
+      "iou": 0.7,
+      "max_det": 300,
+      "rect": false
+    },
+    "dataset": "benchmark"
+  },
+  {
+    "id": "timing_yolov8n_iou_0.5",
+    "stage": "benchmark",
+    "model": "yolov8n.pt",
+    "settings": {
+      "imgsz": 512,
+      "half": false,
+      "batch": 1,
+      "device": "0",
+      "conf": 0.25,
+      "iou": 0.5,
+      "max_det": 300,
+      "rect": false
+    },
+    "dataset": "benchmark"
+  },
+  {
+    "id": "ablation_yolov8n_384_fp32",
+    "stage": "ablation",
+    "model": "yolov8n.pt",
+    "settings": {
+      "imgsz": 384,
+      "half": false,
+      "batch": 1,
+      "device": "0",
+      "conf": 0.001,
+      "iou": 0.7,
+      "max_det": 300,
+      "rect": false
+    },
+    "dataset": "ablation",
+    "reuse_primary": false
+  },
+  {
+    "id": "ablation_yolov8n_512_fp32",
+    "stage": "ablation",
+    "model": "yolov8n.pt",
+    "settings": {
+      "imgsz": 512,
+      "half": false,
+      "batch": 1,
+      "device": "0",
+      "conf": 0.001,
+      "iou": 0.7,
+      "max_det": 300,
+      "rect": false
+    },
+    "dataset": "ablation",
+    "reuse_primary": true
+  },
+  {
+    "id": "ablation_yolov8n_640_fp32",
+    "stage": "ablation",
+    "model": "yolov8n.pt",
+    "settings": {
+      "imgsz": 640,
+      "half": false,
+      "batch": 1,
+      "device": "0",
+      "conf": 0.001,
+      "iou": 0.7,
+      "max_det": 300,
+      "rect": false
+    },
+    "dataset": "ablation",
+    "reuse_primary": false
+  },
+  {
+    "id": "ablation_yolov8n_512_fp16",
+    "stage": "ablation",
+    "model": "yolov8n.pt",
+    "settings": {
+      "imgsz": 512,
+      "half": true,
+      "batch": 1,
+      "device": "0",
+      "conf": 0.001,
+      "iou": 0.7,
+      "max_det": 300,
+      "rect": false
+    },
+    "dataset": "ablation",
+    "reuse_primary": false
+  },
+  {
+    "id": "coco_yolo11n",
+    "stage": "coco",
+    "model": "yolo11n.pt",
+    "settings": {
+      "imgsz": 512,
+      "half": false,
+      "batch": 1,
+      "device": "0",
+      "conf": 0.001,
+      "iou": 0.7,
+      "max_det": 300,
+      "rect": false
+    },
+    "dataset": "coco"
+  },
+  {
+    "id": "kitti_yolo11n",
+    "stage": "kitti",
+    "model": "yolo11n.pt",
+    "settings": {
+      "imgsz": 512,
+      "half": false,
+      "batch": 1,
+      "device": "0",
+      "conf": 0.001,
+      "iou": 0.7,
+      "max_det": 300,
+      "rect": false
+    },
+    "dataset": "kitti"
+  },
+  {
+    "id": "timing_yolo11n_baseline",
+    "stage": "benchmark",
+    "model": "yolo11n.pt",
+    "settings": {
+      "imgsz": 512,
+      "half": false,
+      "batch": 1,
+      "device": "0",
+      "conf": 0.25,
+      "iou": 0.7,
+      "max_det": 300,
+      "rect": false
+    },
+    "dataset": "benchmark"
+  },
+  {
+    "id": "timing_yolo11n_resolution_384",
+    "stage": "benchmark",
+    "model": "yolo11n.pt",
+    "settings": {
+      "imgsz": 384,
+      "half": false,
+      "batch": 1,
+      "device": "0",
+      "conf": 0.25,
+      "iou": 0.7,
+      "max_det": 300,
+      "rect": false
+    },
+    "dataset": "benchmark"
+  },
+  {
+    "id": "timing_yolo11n_resolution_640",
+    "stage": "benchmark",
+    "model": "yolo11n.pt",
+    "settings": {
+      "imgsz": 640,
+      "half": false,
+      "batch": 1,
+      "device": "0",
+      "conf": 0.25,
+      "iou": 0.7,
+      "max_det": 300,
+      "rect": false
+    },
+    "dataset": "benchmark"
+  },
+  {
+    "id": "timing_yolo11n_fp16",
+    "stage": "benchmark",
+    "model": "yolo11n.pt",
+    "settings": {
+      "imgsz": 512,
+      "half": true,
+      "batch": 1,
+      "device": "0",
+      "conf": 0.25,
+      "iou": 0.7,
+      "max_det": 300,
+      "rect": false
+    },
+    "dataset": "benchmark"
+  },
+  {
+    "id": "timing_yolo11n_conf_0.1",
+    "stage": "benchmark",
+    "model": "yolo11n.pt",
+    "settings": {
+      "imgsz": 512,
+      "half": false,
+      "batch": 1,
+      "device": "0",
+      "conf": 0.1,
+      "iou": 0.7,
+      "max_det": 300,
+      "rect": false
+    },
+    "dataset": "benchmark"
+  },
+  {
+    "id": "timing_yolo11n_conf_0.5",
+    "stage": "benchmark",
+    "model": "yolo11n.pt",
+    "settings": {
+      "imgsz": 512,
+      "half": false,
+      "batch": 1,
+      "device": "0",
+      "conf": 0.5,
+      "iou": 0.7,
+      "max_det": 300,
+      "rect": false
+    },
+    "dataset": "benchmark"
+  },
+  {
+    "id": "timing_yolo11n_iou_0.5",
+    "stage": "benchmark",
+    "model": "yolo11n.pt",
+    "settings": {
+      "imgsz": 512,
+      "half": false,
+      "batch": 1,
+      "device": "0",
+      "conf": 0.25,
+      "iou": 0.5,
+      "max_det": 300,
+      "rect": false
+    },
+    "dataset": "benchmark"
+  },
+  {
+    "id": "ablation_yolo11n_384_fp32",
+    "stage": "ablation",
+    "model": "yolo11n.pt",
+    "settings": {
+      "imgsz": 384,
+      "half": false,
+      "batch": 1,
+      "device": "0",
+      "conf": 0.001,
+      "iou": 0.7,
+      "max_det": 300,
+      "rect": false
+    },
+    "dataset": "ablation",
+    "reuse_primary": false
+  },
+  {
+    "id": "ablation_yolo11n_512_fp32",
+    "stage": "ablation",
+    "model": "yolo11n.pt",
+    "settings": {
+      "imgsz": 512,
+      "half": false,
+      "batch": 1,
+      "device": "0",
+      "conf": 0.001,
+      "iou": 0.7,
+      "max_det": 300,
+      "rect": false
+    },
+    "dataset": "ablation",
+    "reuse_primary": true
+  },
+  {
+    "id": "ablation_yolo11n_640_fp32",
+    "stage": "ablation",
+    "model": "yolo11n.pt",
+    "settings": {
+      "imgsz": 640,
+      "half": false,
+      "batch": 1,
+      "device": "0",
+      "conf": 0.001,
+      "iou": 0.7,
+      "max_det": 300,
+      "rect": false
+    },
+    "dataset": "ablation",
+    "reuse_primary": false
+  },
+  {
+    "id": "ablation_yolo11n_512_fp16",
+    "stage": "ablation",
+    "model": "yolo11n.pt",
+    "settings": {
+      "imgsz": 512,
+      "half": true,
+      "batch": 1,
+      "device": "0",
+      "conf": 0.001,
+      "iou": 0.7,
+      "max_det": 300,
+      "rect": false
+    },
+    "dataset": "ablation",
+    "reuse_primary": false
+  },
+  {
+    "id": "coco_rtdetr-l",
+    "stage": "coco",
+    "model": "rtdetr-l.pt",
+    "settings": {
+      "imgsz": 512,
+      "half": false,
+      "batch": 1,
+      "device": "0",
+      "conf": 0.001,
+      "iou": 0.7,
+      "max_det": 300,
+      "rect": false
+    },
+    "dataset": "coco"
+  },
+  {
+    "id": "kitti_rtdetr-l",
+    "stage": "kitti",
+    "model": "rtdetr-l.pt",
+    "settings": {
+      "imgsz": 512,
+      "half": false,
+      "batch": 1,
+      "device": "0",
+      "conf": 0.001,
+      "iou": 0.7,
+      "max_det": 300,
+      "rect": false
+    },
+    "dataset": "kitti"
+  },
+  {
+    "id": "timing_rtdetr-l_baseline",
+    "stage": "benchmark",
+    "model": "rtdetr-l.pt",
+    "settings": {
+      "imgsz": 512,
+      "half": false,
+      "batch": 1,
+      "device": "0",
+      "conf": 0.25,
+      "iou": 0.7,
+      "max_det": 300,
+      "rect": false
+    },
+    "dataset": "benchmark"
+  },
+  {
+    "id": "timing_rtdetr-l_resolution_384",
+    "stage": "benchmark",
+    "model": "rtdetr-l.pt",
+    "settings": {
+      "imgsz": 384,
+      "half": false,
+      "batch": 1,
+      "device": "0",
+      "conf": 0.25,
+      "iou": 0.7,
+      "max_det": 300,
+      "rect": false
+    },
+    "dataset": "benchmark"
+  },
+  {
+    "id": "timing_rtdetr-l_resolution_640",
+    "stage": "benchmark",
+    "model": "rtdetr-l.pt",
+    "settings": {
+      "imgsz": 640,
+      "half": false,
+      "batch": 1,
+      "device": "0",
+      "conf": 0.25,
+      "iou": 0.7,
+      "max_det": 300,
+      "rect": false
+    },
+    "dataset": "benchmark"
+  },
+  {
+    "id": "timing_rtdetr-l_fp16",
+    "stage": "benchmark",
+    "model": "rtdetr-l.pt",
+    "settings": {
+      "imgsz": 512,
+      "half": true,
+      "batch": 1,
+      "device": "0",
+      "conf": 0.25,
+      "iou": 0.7,
+      "max_det": 300,
+      "rect": false
+    },
+    "dataset": "benchmark"
+  },
+  {
+    "id": "timing_rtdetr-l_conf_0.1",
+    "stage": "benchmark",
+    "model": "rtdetr-l.pt",
+    "settings": {
+      "imgsz": 512,
+      "half": false,
+      "batch": 1,
+      "device": "0",
+      "conf": 0.1,
+      "iou": 0.7,
+      "max_det": 300,
+      "rect": false
+    },
+    "dataset": "benchmark"
+  },
+  {
+    "id": "timing_rtdetr-l_conf_0.5",
+    "stage": "benchmark",
+    "model": "rtdetr-l.pt",
+    "settings": {
+      "imgsz": 512,
+      "half": false,
+      "batch": 1,
+      "device": "0",
+      "conf": 0.5,
+      "iou": 0.7,
+      "max_det": 300,
+      "rect": false
+    },
+    "dataset": "benchmark"
+  },
+  {
+    "id": "ablation_rtdetr-l_384_fp32",
+    "stage": "ablation",
+    "model": "rtdetr-l.pt",
+    "settings": {
+      "imgsz": 384,
+      "half": false,
+      "batch": 1,
+      "device": "0",
+      "conf": 0.001,
+      "iou": 0.7,
+      "max_det": 300,
+      "rect": false
+    },
+    "dataset": "ablation",
+    "reuse_primary": false
+  },
+  {
+    "id": "ablation_rtdetr-l_512_fp32",
+    "stage": "ablation",
+    "model": "rtdetr-l.pt",
+    "settings": {
+      "imgsz": 512,
+      "half": false,
+      "batch": 1,
+      "device": "0",
+      "conf": 0.001,
+      "iou": 0.7,
+      "max_det": 300,
+      "rect": false
+    },
+    "dataset": "ablation",
+    "reuse_primary": true
+  },
+  {
+    "id": "ablation_rtdetr-l_640_fp32",
+    "stage": "ablation",
+    "model": "rtdetr-l.pt",
+    "settings": {
+      "imgsz": 640,
+      "half": false,
+      "batch": 1,
+      "device": "0",
+      "conf": 0.001,
+      "iou": 0.7,
+      "max_det": 300,
+      "rect": false
+    },
+    "dataset": "ablation",
+    "reuse_primary": false
+  },
+  {
+    "id": "ablation_rtdetr-l_512_fp16",
+    "stage": "ablation",
+    "model": "rtdetr-l.pt",
+    "settings": {
+      "imgsz": 512,
+      "half": true,
+      "batch": 1,
+      "device": "0",
+      "conf": 0.001,
+      "iou": 0.7,
+      "max_det": 300,
+      "rect": false
+    },
+    "dataset": "ablation",
+    "reuse_primary": false
+  }
+]

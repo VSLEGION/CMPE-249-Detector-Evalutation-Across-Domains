@@ -1,0 +1,50 @@
+[
+  {
+    "reason": "small_objects",
+    "id": 139,
+    "file_name": "002142.png",
+    "path": "C:\\Users\\theva\\datasets\\kitti\\images\\val\\002142.png",
+    "width": 1241,
+    "height": 376
+  },
+  {
+    "reason": "crowded_scene",
+    "id": 34,
+    "file_name": "000535.png",
+    "path": "C:\\Users\\theva\\datasets\\kitti\\images\\val\\000535.png",
+    "width": 1224,
+    "height": 370
+  },
+  {
+    "reason": "pedestrians",
+    "id": 344,
+    "file_name": "005226.png",
+    "path": "C:\\Users\\theva\\datasets\\kitti\\images\\val\\005226.png",
+    "width": 1224,
+    "height": 370
+  },
+  {
+    "reason": "trucks",
+    "id": 27,
+    "file_name": "000423.png",
+    "path": "C:\\Users\\theva\\datasets\\kitti\\images\\val\\000423.png",
+    "width": 1242,
+    "height": 375
+  },
+  {
+    "reason": "overlapping_gt",
+    "id": 23,
+    "file_name": "000346.png",
+    "path": "C:\\Users\\theva\\datasets\\kitti\\images\\val\\000346.png",
+    "width": 1242,
+    "height": 375
+  },
+  {
+    "reason": "highest_shared_false_positives_yolov8n",
+    "id": 420,
+    "file_name": "006322.png",
+    "path": "C:\\Users\\theva\\datasets\\kitti\\images\\val\\006322.png",
+    "width": 1242,
+    "height": 375
+  }
+]

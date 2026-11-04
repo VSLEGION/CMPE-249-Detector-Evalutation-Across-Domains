@@ -1,0 +1,19 @@
+RUN contract attempt 1
+
+test_cli_evaluate_prints_json_safe_metric_parameters (test_repository.RepositoryTests.test_cli_evaluate_prints_json_safe_metric_parameters) ... ok
+test_empty_image_folder_has_actionable_error (test_repository.RepositoryTests.test_empty_image_folder_has_actionable_error) ... ok
+test_evaluator_regression_cases (test_repository.RepositoryTests.test_evaluator_regression_cases) ... ok
+test_explicit_local_merge_preserves_baseline (test_repository.RepositoryTests.test_explicit_local_merge_preserves_baseline) ... ok
+test_matrix_is_38_unique_configurations (test_repository.RepositoryTests.test_matrix_is_38_unique_configurations) ... ok
+test_missing_annotation_image_is_rejected (test_repository.RepositoryTests.test_missing_annotation_image_is_rejected) ... ok
+test_module_help_from_unrelated_directory (test_repository.RepositoryTests.test_module_help_from_unrelated_directory) ... ok
+test_paths_ignore_working_directory (test_repository.RepositoryTests.test_paths_ignore_working_directory) ... ok
+test_portable_default_paths (test_repository.RepositoryTests.test_portable_default_paths) ... ok
+test_real_annotation_ids_are_preserved (test_repository.RepositoryTests.test_real_annotation_ids_are_preserved) ... ok
+test_subprocess_contract_uses_relocated_package (test_repository.RepositoryTests.test_subprocess_contract_uses_relocated_package) ... ok
+test_unlabeled_images_do_not_create_ground_truth (test_repository.RepositoryTests.test_unlabeled_images_do_not_create_ground_truth) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 2.994s
+
+OK

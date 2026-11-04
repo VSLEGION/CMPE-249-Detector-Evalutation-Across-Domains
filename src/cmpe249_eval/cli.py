@@ -108,7 +108,9 @@ def main(argv=None):
             metrics, _ = evaluate(
                 args.annotations, args.predictions, run / "evaluation", args.categories
             )
-            print(json.dumps(metrics, indent=2))
+            # Print the same JSON-safe representation persisted by the evaluator.
+            # COCOeval parameters may contain NumPy integer scalars.
+            print(json.dumps(read(run / "evaluation/metrics.json"), indent=2))
             return 0
         from .pipeline import environment, plan, run_accuracy
         from .runtime import run_worker

@@ -31,3 +31,7 @@ outputs/**
 .DS_Store
 Thumbs.db
 
+# Local submission archives and preserved superseded material
+submission/
+archive/
+
