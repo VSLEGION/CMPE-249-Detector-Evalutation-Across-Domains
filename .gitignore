@@ -12,7 +12,7 @@ __pycache__/
 .tools/
 build/
 dist/
-
+reports/
 # Downloaded datasets, model weights and generated experiments
 data/datasets/**
 !data/datasets/README.md
