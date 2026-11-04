@@ -1,0 +1,10 @@
+# Experiment runtime. Install the appropriate CUDA PyTorch build separately.
+# Reuse the existing dtect environment on the original Windows machine.
+ultralytics==8.4.198
+numpy==2.5.4
+Pillow==13.0.0
+PyYAML==6.0.3
+pycocotools==2.0.11
+matplotlib==3.11.2
+opencv-python==5.0.0.93
+

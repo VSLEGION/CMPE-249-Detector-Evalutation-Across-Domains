@@ -1,0 +1,23 @@
+{
+  "models": ["yolov8n.pt", "yolo11n.pt", "rtdetr-l.pt"],
+  "weights_dir": "weights",
+  "coco_root": "data/datasets/coco",
+  "kitti_root": "data/datasets/kitti",
+  "benchmark_root": "data/verification/images",
+  "output_dir": "outputs",
+  "report_python": "",
+  "seed": 42,
+  "primary": {
+    "imgsz": 512,
+    "half": false,
+    "batch": 1,
+    "device": "0",
+    "conf": 0.001,
+    "iou": 0.7,
+    "max_det": 300,
+    "rect": false
+  },
+  "timing": {"warmup": 10, "repeats": 5, "conf": 0.25},
+  "kitti_size": 500,
+  "ablation_size": 200
+}

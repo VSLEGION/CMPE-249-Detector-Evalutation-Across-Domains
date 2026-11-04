@@ -1,0 +1,22 @@
+{
+  "built_utc": "2026-11-04T01:08:20.817257+00:00",
+  "title": "Repository overview, workflow and project use",
+  "pages": 8,
+  "source_listings_embedded": false,
+  "original_full_run_reexecuted": false,
+  "latex_compiled": false,
+  "input_sha256": {
+    "README.md": "cd358a07e81dce63b05fe34d5e785bf4be2bab6c26e4302f2b1b078a28868d8d",
+    "docs/ARCHITECTURE.md": "988df3419cc2bbd104c888be445ed4df6884322ac86238b9208022950bfe9f81",
+    "docs/VALIDATION.md": "292f8e7cd73c2d9850130be7aa896bceaa734c00a70475b3b12dc0c9a3e8c490",
+    "configs/default.json": "8de98d8e666247e10bcc2a8a616a878e2af71e6bd6ffde13f4ce375d87dc4054",
+    "results/published/tables/primary.csv": "6fc9b6f959ffe857321f39e587062a7cb24a83e6ccc953d19ad5d93e967ac3a4",
+    "results/published/tables/domain_comparison.csv": "843655d9002c2ae5a77c6ef542ab7febe50f930b533f3cbcf700e5f18c4879db",
+    "results/published/tables/timing_memory_and_sweeps.csv": "f453a80e264adbf1c269814b2ff5d6550ba255adf3740e97bc6ed20b4ea16cf9",
+    "results/published/verification/original_benchmark_images.json": "8283c65d7d17be9981821c54a40906c1a7a3e7a006c43228197aaa2a5fd01877"
+  },
+  "image_identity_check": {
+    "expected_benchmark_images": 19,
+    "uploaded_hash_matches": 19
+  }
+}

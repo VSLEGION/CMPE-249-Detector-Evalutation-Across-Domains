@@ -1,0 +1,169 @@
+[
+  {
+    "check": "coco_image_manifest_hashes",
+    "status": "PASS",
+    "count": 5000
+  },
+  {
+    "check": "kitti_image_manifest_hashes",
+    "status": "PASS",
+    "count": 500
+  },
+  {
+    "check": "ablation_image_manifest_hashes",
+    "status": "PASS",
+    "count": 200
+  },
+  {
+    "check": "coco_yolov8n",
+    "status": "PASS"
+  },
+  {
+    "check": "kitti_yolov8n",
+    "status": "PASS"
+  },
+  {
+    "check": "timing_yolov8n_baseline",
+    "status": "PASS"
+  },
+  {
+    "check": "timing_yolov8n_resolution_384",
+    "status": "PASS"
+  },
+  {
+    "check": "timing_yolov8n_resolution_640",
+    "status": "PASS"
+  },
+  {
+    "check": "timing_yolov8n_fp16",
+    "status": "PASS"
+  },
+  {
+    "check": "timing_yolov8n_conf_0.1",
+    "status": "PASS"
+  },
+  {
+    "check": "timing_yolov8n_conf_0.5",
+    "status": "PASS"
+  },
+  {
+    "check": "timing_yolov8n_iou_0.5",
+    "status": "PASS"
+  },
+  {
+    "check": "ablation_yolov8n_384_fp32",
+    "status": "PASS"
+  },
+  {
+    "check": "ablation_yolov8n_512_fp32",
+    "status": "PASS"
+  },
+  {
+    "check": "ablation_yolov8n_640_fp32",
+    "status": "PASS"
+  },
+  {
+    "check": "ablation_yolov8n_512_fp16",
+    "status": "PASS"
+  },
+  {
+    "check": "coco_yolo11n",
+    "status": "PASS"
+  },
+  {
+    "check": "kitti_yolo11n",
+    "status": "PASS"
+  },
+  {
+    "check": "timing_yolo11n_baseline",
+    "status": "PASS"
+  },
+  {
+    "check": "timing_yolo11n_resolution_384",
+    "status": "PASS"
+  },
+  {
+    "check": "timing_yolo11n_resolution_640",
+    "status": "PASS"
+  },
+  {
+    "check": "timing_yolo11n_fp16",
+    "status": "PASS"
+  },
+  {
+    "check": "timing_yolo11n_conf_0.1",
+    "status": "PASS"
+  },
+  {
+    "check": "timing_yolo11n_conf_0.5",
+    "status": "PASS"
+  },
+  {
+    "check": "timing_yolo11n_iou_0.5",
+    "status": "PASS"
+  },
+  {
+    "check": "ablation_yolo11n_384_fp32",
+    "status": "PASS"
+  },
+  {
+    "check": "ablation_yolo11n_512_fp32",
+    "status": "PASS"
+  },
+  {
+    "check": "ablation_yolo11n_640_fp32",
+    "status": "PASS"
+  },
+  {
+    "check": "ablation_yolo11n_512_fp16",
+    "status": "PASS"
+  },
+  {
+    "check": "coco_rtdetr-l",
+    "status": "PASS"
+  },
+  {
+    "check": "kitti_rtdetr-l",
+    "status": "PASS"
+  },
+  {
+    "check": "timing_rtdetr-l_baseline",
+    "status": "PASS"
+  },
+  {
+    "check": "timing_rtdetr-l_resolution_384",
+    "status": "PASS"
+  },
+  {
+    "check": "timing_rtdetr-l_resolution_640",
+    "status": "PASS"
+  },
+  {
+    "check": "timing_rtdetr-l_fp16",
+    "status": "PASS"
+  },
+  {
+    "check": "timing_rtdetr-l_conf_0.1",
+    "status": "PASS"
+  },
+  {
+    "check": "timing_rtdetr-l_conf_0.5",
+    "status": "PASS"
+  },
+  {
+    "check": "ablation_rtdetr-l_384_fp32",
+    "status": "PASS"
+  },
+  {
+    "check": "ablation_rtdetr-l_512_fp32",
+    "status": "PASS"
+  },
+  {
+    "check": "ablation_rtdetr-l_640_fp32",
+    "status": "PASS"
+  },
+  {
+    "check": "ablation_rtdetr-l_512_fp16",
+    "status": "PASS"
+  }
+]

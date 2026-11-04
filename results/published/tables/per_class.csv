@@ -1,0 +1,253 @@
+AP,category_id,class,dataset,gt_count,id,model,role
+0.49574345321584506,1,person,coco,11004,coco_yolov8n,yolov8n.pt,primary
+0.2388573735359553,2,bicycle,coco,316,coco_yolov8n,yolov8n.pt,primary
+0.32088058779372575,3,car,coco,1932,coco_yolov8n,yolov8n.pt,primary
+0.40184044065229246,4,motorcycle,coco,371,coco_yolov8n,yolov8n.pt,primary
+0.6385940872379399,5,airplane,coco,143,coco_yolov8n,yolov8n.pt,primary
+0.5931231346531285,6,bus,coco,285,coco_yolov8n,yolov8n.pt,primary
+0.6554153400735917,7,train,coco,190,coco_yolov8n,yolov8n.pt,primary
+0.2535216258298891,8,truck,coco,415,coco_yolov8n,yolov8n.pt,primary
+0.19639225244248834,9,boat,coco,430,coco_yolov8n,yolov8n.pt,primary
+0.18334343108233575,10,traffic light,coco,637,coco_yolov8n,yolov8n.pt,primary
+0.6161240435799548,11,fire hydrant,coco,101,coco_yolov8n,yolov8n.pt,primary
+0.59996407374961,13,stop sign,coco,75,coco_yolov8n,yolov8n.pt,primary
+0.4077039259047815,14,parking meter,coco,60,coco_yolov8n,yolov8n.pt,primary
+0.1882143982751916,15,bench,coco,413,coco_yolov8n,yolov8n.pt,primary
+0.26000212730516015,16,bird,coco,440,coco_yolov8n,yolov8n.pt,primary
+0.6432212689294203,17,cat,coco,202,coco_yolov8n,yolov8n.pt,primary
+0.5462012264487812,18,dog,coco,218,coco_yolov8n,yolov8n.pt,primary
+0.48872487723383495,19,horse,coco,273,coco_yolov8n,yolov8n.pt,primary
+0.4573999842720703,20,sheep,coco,361,coco_yolov8n,yolov8n.pt,primary
+0.4172348895223292,21,cow,coco,380,coco_yolov8n,yolov8n.pt,primary
+0.650300889413457,22,elephant,coco,255,coco_yolov8n,yolov8n.pt,primary
+0.6499750004989504,23,bear,coco,71,coco_yolov8n,yolov8n.pt,primary
+0.6433848206972654,24,zebra,coco,268,coco_yolov8n,yolov8n.pt,primary
+0.6658571552349956,25,giraffe,coco,232,coco_yolov8n,yolov8n.pt,primary
+0.08506081482064815,27,backpack,coco,371,coco_yolov8n,yolov8n.pt,primary
+0.34847683203447877,28,umbrella,coco,413,coco_yolov8n,yolov8n.pt,primary
+0.06769725220843764,31,handbag,coco,540,coco_yolov8n,yolov8n.pt,primary
+0.2404047447394369,32,tie,coco,254,coco_yolov8n,yolov8n.pt,primary
+0.295587673124636,33,suitcase,coco,303,coco_yolov8n,yolov8n.pt,primary
+0.5197224182312761,34,frisbee,coco,115,coco_yolov8n,yolov8n.pt,primary
+0.18434171599489513,35,skis,coco,241,coco_yolov8n,yolov8n.pt,primary
+0.22335160022321934,36,snowboard,coco,69,coco_yolov8n,yolov8n.pt,primary
+0.29129286189888726,37,sports ball,coco,263,coco_yolov8n,yolov8n.pt,primary
+0.3481130810696248,38,kite,coco,336,coco_yolov8n,yolov8n.pt,primary
+0.1861550099412323,39,baseball bat,coco,146,coco_yolov8n,yolov8n.pt,primary
+0.2883686997020791,40,baseball glove,coco,148,coco_yolov8n,yolov8n.pt,primary
+0.43417158827397084,41,skateboard,coco,179,coco_yolov8n,yolov8n.pt,primary
+0.2921717427847935,42,surfboard,coco,269,coco_yolov8n,yolov8n.pt,primary
+0.38127844671540223,43,tennis racket,coco,225,coco_yolov8n,yolov8n.pt,primary
+0.2617015924681262,44,bottle,coco,1025,coco_yolov8n,yolov8n.pt,primary
+0.22352264960781557,46,wine glass,coco,343,coco_yolov8n,yolov8n.pt,primary
+0.2999660674971566,47,cup,coco,899,coco_yolov8n,yolov8n.pt,primary
+0.230401561540908,48,fork,coco,215,coco_yolov8n,yolov8n.pt,primary
+0.09459968798873242,49,knife,coco,326,coco_yolov8n,yolov8n.pt,primary
+0.08441487916384768,50,spoon,coco,253,coco_yolov8n,yolov8n.pt,primary
+0.36724056500250857,51,bowl,coco,626,coco_yolov8n,yolov8n.pt,primary
+0.2370340154104405,52,banana,coco,379,coco_yolov8n,yolov8n.pt,primary
+0.14737380219404833,53,apple,coco,239,coco_yolov8n,yolov8n.pt,primary
+0.3089081765971247,54,sandwich,coco,177,coco_yolov8n,yolov8n.pt,primary
+0.26858502904637804,55,orange,coco,287,coco_yolov8n,yolov8n.pt,primary
+0.21220063587189958,56,broccoli,coco,316,coco_yolov8n,yolov8n.pt,primary
+0.1890621135298379,57,carrot,coco,371,coco_yolov8n,yolov8n.pt,primary
+0.3407411708278954,58,hot dog,coco,127,coco_yolov8n,yolov8n.pt,primary
+0.47463518438620417,59,pizza,coco,285,coco_yolov8n,yolov8n.pt,primary
+0.39352143088456293,60,donut,coco,338,coco_yolov8n,yolov8n.pt,primary
+0.2830544173031227,61,cake,coco,316,coco_yolov8n,yolov8n.pt,primary
+0.2363153240901995,62,chair,coco,1791,coco_yolov8n,yolov8n.pt,primary
+0.41264618242907436,63,couch,coco,261,coco_yolov8n,yolov8n.pt,primary
+0.1868925453132174,64,potted plant,coco,343,coco_yolov8n,yolov8n.pt,primary
+0.4421919393940802,65,bed,coco,163,coco_yolov8n,yolov8n.pt,primary
+0.2982306515072869,67,dining table,coco,697,coco_yolov8n,yolov8n.pt,primary
+0.6425441368117136,70,toilet,coco,179,coco_yolov8n,yolov8n.pt,primary
+0.5293293238092343,72,tv,coco,288,coco_yolov8n,yolov8n.pt,primary
+0.5317246482421247,73,laptop,coco,231,coco_yolov8n,yolov8n.pt,primary
+0.5087462864341166,74,mouse,coco,106,coco_yolov8n,yolov8n.pt,primary
+0.12999059831701104,75,remote,coco,283,coco_yolov8n,yolov8n.pt,primary
+0.4544608354021127,76,keyboard,coco,153,coco_yolov8n,yolov8n.pt,primary
+0.26569445366226213,77,cell phone,coco,262,coco_yolov8n,yolov8n.pt,primary
+0.4811423284135636,78,microwave,coco,55,coco_yolov8n,yolov8n.pt,primary
+0.36606811237170517,79,oven,coco,143,coco_yolov8n,yolov8n.pt,primary
+0.29748723940717053,80,toaster,coco,9,coco_yolov8n,yolov8n.pt,primary
+0.32924064563848876,81,sink,coco,225,coco_yolov8n,yolov8n.pt,primary
+0.5261423002239278,82,refrigerator,coco,126,coco_yolov8n,yolov8n.pt,primary
+0.10033159107894983,84,book,coco,1161,coco_yolov8n,yolov8n.pt,primary
+0.4209600929781846,85,clock,coco,267,coco_yolov8n,yolov8n.pt,primary
+0.292640873356628,86,vase,coco,277,coco_yolov8n,yolov8n.pt,primary
+0.2874241452822828,87,scissors,coco,36,coco_yolov8n,yolov8n.pt,primary
+0.4115796519543342,88,teddy bear,coco,191,coco_yolov8n,yolov8n.pt,primary
+0.005940594059405941,89,hair drier,coco,11,coco_yolov8n,yolov8n.pt,primary
+0.1697323049623846,90,toothbrush,coco,57,coco_yolov8n,yolov8n.pt,primary
+0.14457135426111223,1,person,kitti,296,kitti_yolov8n,yolov8n.pt,primary
+0.366270845389012,2,car,kitti,1860,kitti_yolov8n,yolov8n.pt,primary
+0.07199055675318006,3,truck,kitti,79,kitti_yolov8n,yolov8n.pt,primary
+0.003706037956430401,4,bicycle,kitti,114,kitti_yolov8n,yolov8n.pt,supplementary approximate
+0.4974778276253807,1,person,coco,11004,coco_yolo11n,yolo11n.pt,primary
+0.24888202341629742,2,bicycle,coco,316,coco_yolo11n,yolo11n.pt,primary
+0.33004008577709526,3,car,coco,1932,coco_yolo11n,yolo11n.pt,primary
+0.40637980662387774,4,motorcycle,coco,371,coco_yolo11n,yolo11n.pt,primary
+0.6715473094311812,5,airplane,coco,143,coco_yolo11n,yolo11n.pt,primary
+0.6121798123227679,6,bus,coco,285,coco_yolo11n,yolo11n.pt,primary
+0.6787317792256198,7,train,coco,190,coco_yolo11n,yolo11n.pt,primary
+0.2620175848192069,8,truck,coco,415,coco_yolo11n,yolo11n.pt,primary
+0.19658523013590753,9,boat,coco,430,coco_yolo11n,yolo11n.pt,primary
+0.1870616741656591,10,traffic light,coco,637,coco_yolo11n,yolo11n.pt,primary
+0.6133496001036265,11,fire hydrant,coco,101,coco_yolo11n,yolo11n.pt,primary
+0.5737173624044254,13,stop sign,coco,75,coco_yolo11n,yolo11n.pt,primary
+0.4450297527170151,14,parking meter,coco,60,coco_yolo11n,yolo11n.pt,primary
+0.2009526145145481,15,bench,coco,413,coco_yolo11n,yolo11n.pt,primary
+0.2748502683527775,16,bird,coco,440,coco_yolo11n,yolo11n.pt,primary
+0.6749036013523844,17,cat,coco,202,coco_yolo11n,yolo11n.pt,primary
+0.5739458110071046,18,dog,coco,218,coco_yolo11n,yolo11n.pt,primary
+0.530592214974715,19,horse,coco,273,coco_yolo11n,yolo11n.pt,primary
+0.4653272340921854,20,sheep,coco,361,coco_yolo11n,yolo11n.pt,primary
+0.4622819852830807,21,cow,coco,380,coco_yolo11n,yolo11n.pt,primary
+0.6498780176490389,22,elephant,coco,255,coco_yolo11n,yolo11n.pt,primary
+0.6903742280259293,23,bear,coco,71,coco_yolo11n,yolo11n.pt,primary
+0.6601003091624703,24,zebra,coco,268,coco_yolo11n,yolo11n.pt,primary
+0.6691603066687503,25,giraffe,coco,232,coco_yolo11n,yolo11n.pt,primary
+0.09115544304292811,27,backpack,coco,371,coco_yolo11n,yolo11n.pt,primary
+0.36513136896072734,28,umbrella,coco,413,coco_yolo11n,yolo11n.pt,primary
+0.07770132364003074,31,handbag,coco,540,coco_yolo11n,yolo11n.pt,primary
+0.25837441440532877,32,tie,coco,254,coco_yolo11n,yolo11n.pt,primary
+0.32809232961095475,33,suitcase,coco,303,coco_yolo11n,yolo11n.pt,primary
+0.5417481975169846,34,frisbee,coco,115,coco_yolo11n,yolo11n.pt,primary
+0.1971387891156047,35,skis,coco,241,coco_yolo11n,yolo11n.pt,primary
+0.24656104352779978,36,snowboard,coco,69,coco_yolo11n,yolo11n.pt,primary
+0.32126526141328066,37,sports ball,coco,263,coco_yolo11n,yolo11n.pt,primary
+0.3838436061250051,38,kite,coco,336,coco_yolo11n,yolo11n.pt,primary
+0.1858028108248143,39,baseball bat,coco,146,coco_yolo11n,yolo11n.pt,primary
+0.3014591302566553,40,baseball glove,coco,148,coco_yolo11n,yolo11n.pt,primary
+0.44322333644807727,41,skateboard,coco,179,coco_yolo11n,yolo11n.pt,primary
+0.3128208114245332,42,surfboard,coco,269,coco_yolo11n,yolo11n.pt,primary
+0.3882608897059758,43,tennis racket,coco,225,coco_yolo11n,yolo11n.pt,primary
+0.26945551418679947,44,bottle,coco,1025,coco_yolo11n,yolo11n.pt,primary
+0.23718502051573248,46,wine glass,coco,343,coco_yolo11n,yolo11n.pt,primary
+0.3032296811616521,47,cup,coco,899,coco_yolo11n,yolo11n.pt,primary
+0.23670786864232232,48,fork,coco,215,coco_yolo11n,yolo11n.pt,primary
+0.0993927129430396,49,knife,coco,326,coco_yolo11n,yolo11n.pt,primary
+0.08614529645834178,50,spoon,coco,253,coco_yolo11n,yolo11n.pt,primary
+0.3817607989767791,51,bowl,coco,626,coco_yolo11n,yolo11n.pt,primary
+0.22698502392010184,52,banana,coco,379,coco_yolo11n,yolo11n.pt,primary
+0.16175846133136465,53,apple,coco,239,coco_yolo11n,yolo11n.pt,primary
+0.32798757809239104,54,sandwich,coco,177,coco_yolo11n,yolo11n.pt,primary
+0.284536655575002,55,orange,coco,287,coco_yolo11n,yolo11n.pt,primary
+0.2238536285980047,56,broccoli,coco,316,coco_yolo11n,yolo11n.pt,primary
+0.19154601218404232,57,carrot,coco,371,coco_yolo11n,yolo11n.pt,primary
+0.33902145683345764,58,hot dog,coco,127,coco_yolo11n,yolo11n.pt,primary
+0.4930402411795712,59,pizza,coco,285,coco_yolo11n,yolo11n.pt,primary
+0.40312007143277523,60,donut,coco,338,coco_yolo11n,yolo11n.pt,primary
+0.3117524572102462,61,cake,coco,316,coco_yolo11n,yolo11n.pt,primary
+0.2394587448830675,62,chair,coco,1791,coco_yolo11n,yolo11n.pt,primary
+0.4431438376932275,63,couch,coco,261,coco_yolo11n,yolo11n.pt,primary
+0.1937367196491383,64,potted plant,coco,343,coco_yolo11n,yolo11n.pt,primary
+0.4848163705783822,65,bed,coco,163,coco_yolo11n,yolo11n.pt,primary
+0.321743369768498,67,dining table,coco,697,coco_yolo11n,yolo11n.pt,primary
+0.6667404292513032,70,toilet,coco,179,coco_yolo11n,yolo11n.pt,primary
+0.5295457886078854,72,tv,coco,288,coco_yolo11n,yolo11n.pt,primary
+0.5528137450512668,73,laptop,coco,231,coco_yolo11n,yolo11n.pt,primary
+0.5141453133874214,74,mouse,coco,106,coco_yolo11n,yolo11n.pt,primary
+0.1478444190049198,75,remote,coco,283,coco_yolo11n,yolo11n.pt,primary
+0.45240725925783537,76,keyboard,coco,153,coco_yolo11n,yolo11n.pt,primary
+0.2738298807846596,77,cell phone,coco,262,coco_yolo11n,yolo11n.pt,primary
+0.5106737026188951,78,microwave,coco,55,coco_yolo11n,yolo11n.pt,primary
+0.36225071266273995,79,oven,coco,143,coco_yolo11n,yolo11n.pt,primary
+0.2662356823917686,80,toaster,coco,9,coco_yolo11n,yolo11n.pt,primary
+0.33684568383400926,81,sink,coco,225,coco_yolo11n,yolo11n.pt,primary
+0.5468057593851172,82,refrigerator,coco,126,coco_yolo11n,yolo11n.pt,primary
+0.09794736519296912,84,book,coco,1161,coco_yolo11n,yolo11n.pt,primary
+0.4259287894410204,85,clock,coco,267,coco_yolo11n,yolo11n.pt,primary
+0.29218411687422724,86,vase,coco,277,coco_yolo11n,yolo11n.pt,primary
+0.2663569630436486,87,scissors,coco,36,coco_yolo11n,yolo11n.pt,primary
+0.43893961567529344,88,teddy bear,coco,191,coco_yolo11n,yolo11n.pt,primary
+0.0,89,hair drier,coco,11,coco_yolo11n,yolo11n.pt,primary
+0.14060060440551206,90,toothbrush,coco,57,coco_yolo11n,yolo11n.pt,primary
+0.16141806923524094,1,person,kitti,296,kitti_yolo11n,yolo11n.pt,primary
+0.36402383310397346,2,car,kitti,1860,kitti_yolo11n,yolo11n.pt,primary
+0.06516764140748055,3,truck,kitti,79,kitti_yolo11n,yolo11n.pt,primary
+0.001681985532215398,4,bicycle,kitti,114,kitti_yolo11n,yolo11n.pt,supplementary approximate
+0.5904018772036562,1,person,coco,11004,coco_rtdetr-l,rtdetr-l.pt,primary
+0.3617872639005134,2,bicycle,coco,316,coco_rtdetr-l,rtdetr-l.pt,primary
+0.46735341144045256,3,car,coco,1932,coco_rtdetr-l,rtdetr-l.pt,primary
+0.5503046356213077,4,motorcycle,coco,371,coco_rtdetr-l,rtdetr-l.pt,primary
+0.7711619974256408,5,airplane,coco,143,coco_rtdetr-l,rtdetr-l.pt,primary
+0.7283579169571687,6,bus,coco,285,coco_rtdetr-l,rtdetr-l.pt,primary
+0.7594538516225695,7,train,coco,190,coco_rtdetr-l,rtdetr-l.pt,primary
+0.4472867007203953,8,truck,coco,415,coco_rtdetr-l,rtdetr-l.pt,primary
+0.35509058804893207,9,boat,coco,430,coco_rtdetr-l,rtdetr-l.pt,primary
+0.2928811551978721,10,traffic light,coco,637,coco_rtdetr-l,rtdetr-l.pt,primary
+0.7105181914470746,11,fire hydrant,coco,101,coco_rtdetr-l,rtdetr-l.pt,primary
+0.6516927310655841,13,stop sign,coco,75,coco_rtdetr-l,rtdetr-l.pt,primary
+0.5422264296968864,14,parking meter,coco,60,coco_rtdetr-l,rtdetr-l.pt,primary
+0.3224512048909715,15,bench,coco,413,coco_rtdetr-l,rtdetr-l.pt,primary
+0.4360856038347227,16,bird,coco,440,coco_rtdetr-l,rtdetr-l.pt,primary
+0.8068619926398478,17,cat,coco,202,coco_rtdetr-l,rtdetr-l.pt,primary
+0.7534838522185711,18,dog,coco,218,coco_rtdetr-l,rtdetr-l.pt,primary
+0.684115913248086,19,horse,coco,273,coco_rtdetr-l,rtdetr-l.pt,primary
+0.6221217118348703,20,sheep,coco,361,coco_rtdetr-l,rtdetr-l.pt,primary
+0.6483222462439379,21,cow,coco,380,coco_rtdetr-l,rtdetr-l.pt,primary
+0.722637276206226,22,elephant,coco,255,coco_rtdetr-l,rtdetr-l.pt,primary
+0.8371805238941183,23,bear,coco,71,coco_rtdetr-l,rtdetr-l.pt,primary
+0.7628735624699092,24,zebra,coco,268,coco_rtdetr-l,rtdetr-l.pt,primary
+0.7407953934680355,25,giraffe,coco,232,coco_rtdetr-l,rtdetr-l.pt,primary
+0.21181057193781794,27,backpack,coco,371,coco_rtdetr-l,rtdetr-l.pt,primary
+0.497097005646226,28,umbrella,coco,413,coco_rtdetr-l,rtdetr-l.pt,primary
+0.23566716304337462,31,handbag,coco,540,coco_rtdetr-l,rtdetr-l.pt,primary
+0.40415118942247724,32,tie,coco,254,coco_rtdetr-l,rtdetr-l.pt,primary
+0.5062872383949378,33,suitcase,coco,303,coco_rtdetr-l,rtdetr-l.pt,primary
+0.736329171601163,34,frisbee,coco,115,coco_rtdetr-l,rtdetr-l.pt,primary
+0.34333929377751476,35,skis,coco,241,coco_rtdetr-l,rtdetr-l.pt,primary
+0.43549295185644216,36,snowboard,coco,69,coco_rtdetr-l,rtdetr-l.pt,primary
+0.5001468303516554,37,sports ball,coco,263,coco_rtdetr-l,rtdetr-l.pt,primary
+0.515180852576295,38,kite,coco,336,coco_rtdetr-l,rtdetr-l.pt,primary
+0.46193439917265783,39,baseball bat,coco,146,coco_rtdetr-l,rtdetr-l.pt,primary
+0.43220255852948203,40,baseball glove,coco,148,coco_rtdetr-l,rtdetr-l.pt,primary
+0.6254394512686922,41,skateboard,coco,179,coco_rtdetr-l,rtdetr-l.pt,primary
+0.4987642996888077,42,surfboard,coco,269,coco_rtdetr-l,rtdetr-l.pt,primary
+0.5610803031256013,43,tennis racket,coco,225,coco_rtdetr-l,rtdetr-l.pt,primary
+0.4333081953607995,44,bottle,coco,1025,coco_rtdetr-l,rtdetr-l.pt,primary
+0.4086184018767631,46,wine glass,coco,343,coco_rtdetr-l,rtdetr-l.pt,primary
+0.490899154687253,47,cup,coco,899,coco_rtdetr-l,rtdetr-l.pt,primary
+0.49144749179287306,48,fork,coco,215,coco_rtdetr-l,rtdetr-l.pt,primary
+0.2991821469223643,49,knife,coco,326,coco_rtdetr-l,rtdetr-l.pt,primary
+0.2772520919946019,50,spoon,coco,253,coco_rtdetr-l,rtdetr-l.pt,primary
+0.4853479015850954,51,bowl,coco,626,coco_rtdetr-l,rtdetr-l.pt,primary
+0.2922389081191,52,banana,coco,379,coco_rtdetr-l,rtdetr-l.pt,primary
+0.26204395116998336,53,apple,coco,239,coco_rtdetr-l,rtdetr-l.pt,primary
+0.5074481856897085,54,sandwich,coco,177,coco_rtdetr-l,rtdetr-l.pt,primary
+0.3479162334674696,55,orange,coco,287,coco_rtdetr-l,rtdetr-l.pt,primary
+0.28557542305705136,56,broccoli,coco,316,coco_rtdetr-l,rtdetr-l.pt,primary
+0.3025686380507666,57,carrot,coco,371,coco_rtdetr-l,rtdetr-l.pt,primary
+0.540679318854762,58,hot dog,coco,127,coco_rtdetr-l,rtdetr-l.pt,primary
+0.5831339911382591,59,pizza,coco,285,coco_rtdetr-l,rtdetr-l.pt,primary
+0.5917437933370405,60,donut,coco,338,coco_rtdetr-l,rtdetr-l.pt,primary
+0.4573309056625763,61,cake,coco,316,coco_rtdetr-l,rtdetr-l.pt,primary
+0.37948263706302476,62,chair,coco,1791,coco_rtdetr-l,rtdetr-l.pt,primary
+0.5360738338884787,63,couch,coco,261,coco_rtdetr-l,rtdetr-l.pt,primary
+0.33485902732674316,64,potted plant,coco,343,coco_rtdetr-l,rtdetr-l.pt,primary
+0.5834951186364904,65,bed,coco,163,coco_rtdetr-l,rtdetr-l.pt,primary
+0.37910938880647577,67,dining table,coco,697,coco_rtdetr-l,rtdetr-l.pt,primary
+0.6863112204432603,70,toilet,coco,179,coco_rtdetr-l,rtdetr-l.pt,primary
+0.6647258986115121,72,tv,coco,288,coco_rtdetr-l,rtdetr-l.pt,primary
+0.7168499241096314,73,laptop,coco,231,coco_rtdetr-l,rtdetr-l.pt,primary
+0.6645005098496626,74,mouse,coco,106,coco_rtdetr-l,rtdetr-l.pt,primary
+0.42419677827421765,75,remote,coco,283,coco_rtdetr-l,rtdetr-l.pt,primary
+0.6120237420710772,76,keyboard,coco,153,coco_rtdetr-l,rtdetr-l.pt,primary
+0.4601098435615085,77,cell phone,coco,262,coco_rtdetr-l,rtdetr-l.pt,primary
+0.7006302246785854,78,microwave,coco,55,coco_rtdetr-l,rtdetr-l.pt,primary
+0.4601201117252986,79,oven,coco,143,coco_rtdetr-l,rtdetr-l.pt,primary
+0.45395266689298686,80,toaster,coco,9,coco_rtdetr-l,rtdetr-l.pt,primary
+0.4662605523664434,81,sink,coco,225,coco_rtdetr-l,rtdetr-l.pt,primary
+0.6974746923975705,82,refrigerator,coco,126,coco_rtdetr-l,rtdetr-l.pt,primary
+0.19711190406948698,84,book,coco,1161,coco_rtdetr-l,rtdetr-l.pt,primary
+0.5507277908668062,85,clock,coco,267,coco_rtdetr-l,rtdetr-l.pt,primary
+0.4145628541030216,86,vase,coco,277,coco_rtdetr-l,rtdetr-l.pt,primary
+0.4434332910791227,87,scissors,coco,36,coco_rtdetr-l,rtdetr-l.pt,primary
+0.6002714601354888,88,teddy bear,coco,191,coco_rtdetr-l,rtdetr-l.pt,primary
+0.27600793895257,89,hair drier,coco,11,coco_rtdetr-l,rtdetr-l.pt,primary
+0.37018658654272185,90,toothbrush,coco,57,coco_rtdetr-l,rtdetr-l.pt,primary
+0.17802965857098638,1,person,kitti,296,kitti_rtdetr-l,rtdetr-l.pt,primary
+0.4828310266665201,2,car,kitti,1860,kitti_rtdetr-l,rtdetr-l.pt,primary
+0.19710974570743248,3,truck,kitti,79,kitti_rtdetr-l,rtdetr-l.pt,primary
+0.0011408229803117932,4,bicycle,kitti,114,kitti_rtdetr-l,rtdetr-l.pt,supplementary approximate

@@ -1,0 +1,78 @@
+{
+  "model": "yolov8n.pt",
+  "checkpoint_sha256": "f59b3d833e2ff32e194b5bb8e08d211dc7c5bdf144b90d2c8412c47ccfc83b36",
+  "parameters_before_fusion": 3157200,
+  "module_counts": {
+    "DetectionModel": 1,
+    "Sequential": 7,
+    "Conv": 57,
+    "Conv2d": 64,
+    "BatchNorm2d": 57,
+    "SiLU": 1,
+    "C2f": 8,
+    "ModuleList": 10,
+    "Bottleneck": 10,
+    "SPPF": 1,
+    "MaxPool2d": 1,
+    "Upsample": 2,
+    "Concat": 4,
+    "Detect": 1,
+    "DFL": 1
+  },
+  "predictor": "ultralytics.models.yolo.detect.predict.DetectionPredictor",
+  "scale_fill": false,
+  "settings": {
+    "imgsz": 512,
+    "half": false,
+    "batch": 1,
+    "device": "0",
+    "conf": 0.001,
+    "iou": 0.7,
+    "max_det": 300,
+    "rect": false
+  },
+  "NMS": "class-aware IoU 0.7",
+  "parameter_dtypes": [
+    "torch.float32"
+  ],
+  "pid": 38212,
+  "torch_threads": 4,
+  "observed_tensors": [
+    {
+      "shape": [
+        1,
+        3,
+        512,
+        512
+      ],
+      "dtype": "torch.float32",
+      "device": "cuda:0",
+      "grad_enabled": false,
+      "training": false
+    },
+    {
+      "shape": [
+        1,
+        3,
+        512,
+        512
+      ],
+      "dtype": "torch.float32",
+      "device": "cuda:0",
+      "grad_enabled": false,
+      "training": false
+    },
+    {
+      "shape": [
+        1,
+        3,
+        512,
+        512
+      ],
+      "dtype": "torch.float32",
+      "device": "cuda:0",
+      "grad_enabled": false,
+      "training": false
+    }
+  ]
+}

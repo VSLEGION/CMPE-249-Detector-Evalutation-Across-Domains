@@ -1,0 +1,33 @@
+# Local configuration and environments
+configs/local.json
+.venv/
+venv/
+dtect/
+.env
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.coverage
+.tools/
+build/
+dist/
+
+# Downloaded datasets, model weights and generated experiments
+data/datasets/**
+!data/datasets/README.md
+weights/**
+!weights/README.md
+outputs/**
+!outputs/README.md
+!outputs/.gitkeep
+*.pt
+*.onnx
+*.engine
+*.zip
+
+# Raw verification images are intentionally NOT ignored.
+# Add your small verification image set under data/verification/images/.
+.DS_Store
+Thumbs.db
+

@@ -1,0 +1,6 @@
+{
+  "status": "PASS",
+  "experiment": "kitti_yolov8n",
+  "all_shared_metrics_equal": true,
+  "prediction_sha256": "c0e77e9ddb80ed19aaac1aee6f0f145fb82ef501e0baf15dc64a8c7fb69b14ed"
+}

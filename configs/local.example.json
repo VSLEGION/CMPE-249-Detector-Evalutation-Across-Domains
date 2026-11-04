@@ -1,0 +1,5 @@
+{
+  "weights_dir": "../",
+  "coco_root": "C:/path/to/datasets/coco",
+  "kitti_root": "C:/path/to/datasets/kitti"
+}

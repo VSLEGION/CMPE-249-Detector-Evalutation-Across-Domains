@@ -1,0 +1,94 @@
+{
+  "model": "rtdetr-l.pt",
+  "checkpoint_sha256": "6de60b10d4bc566f00cda0f5b4d64afe4b66d48dc9695d2171effb7859d8e73f",
+  "parameters_before_fusion": 32970476,
+  "module_counts": {
+    "DetectionModel": 1,
+    "Sequential": 9,
+    "HGStem": 1,
+    "Conv": 92,
+    "Conv2d": 122,
+    "BatchNorm2d": 122,
+    "ReLU": 12,
+    "MaxPool2d": 1,
+    "HGBlock": 6,
+    "ModuleList": 18,
+    "DWConv": 27,
+    "Identity": 58,
+    "LightConv": 24,
+    "AIFI": 1,
+    "MultiheadAttention": 7,
+    "NonDynamicallyQuantizableLinear": 7,
+    "Linear": 69,
+    "LayerNorm": 21,
+    "Dropout": 27,
+    "GELU": 1,
+    "SiLU": 2,
+    "Upsample": 2,
+    "Concat": 4,
+    "RepC3": 4,
+    "RepConv": 12,
+    "RTDETRDecoder": 1,
+    "DeformableTransformerDecoder": 1,
+    "DeformableTransformerDecoderLayer": 6,
+    "MSDeformAttn": 6,
+    "Embedding": 1,
+    "MLP": 8
+  },
+  "predictor": "ultralytics.models.rtdetr.predict.RTDETRPredictor",
+  "scale_fill": true,
+  "settings": {
+    "imgsz": 512,
+    "half": false,
+    "batch": 1,
+    "device": "0",
+    "conf": 0.001,
+    "iou": 0.7,
+    "max_det": 300,
+    "rect": false
+  },
+  "NMS": "not applicable; NMS-free",
+  "parameter_dtypes": [
+    "torch.float32"
+  ],
+  "pid": 39364,
+  "torch_threads": 4,
+  "observed_tensors": [
+    {
+      "shape": [
+        1,
+        3,
+        512,
+        512
+      ],
+      "dtype": "torch.float32",
+      "device": "cuda:0",
+      "grad_enabled": false,
+      "training": false
+    },
+    {
+      "shape": [
+        1,
+        3,
+        512,
+        512
+      ],
+      "dtype": "torch.float32",
+      "device": "cuda:0",
+      "grad_enabled": false,
+      "training": false
+    },
+    {
+      "shape": [
+        1,
+        3,
+        512,
+        512
+      ],
+      "dtype": "torch.float32",
+      "device": "cuda:0",
+      "grad_enabled": false,
+      "training": false
+    }
+  ]
+}

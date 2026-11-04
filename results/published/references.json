@@ -1,0 +1,65 @@
+[
+  {
+    "key": "coco",
+    "citation": "Lin et al. Microsoft COCO: Common Objects in Context. ECCV 2014.",
+    "url": "https://arxiv.org/abs/1405.0312",
+    "type": "original paper",
+    "checked": "2026-11-03 via official/author page"
+  },
+  {
+    "key": "detr",
+    "citation": "Carion et al. End-to-End Object Detection with Transformers. ECCV 2020.",
+    "url": "https://arxiv.org/abs/2005.12872",
+    "type": "original paper",
+    "checked": "2026-11-03 via official/author page"
+  },
+  {
+    "key": "rtdetr",
+    "citation": "Zhao et al. DETRs Beat YOLOs on Real-time Object Detection. CVPR 2024.",
+    "url": "https://arxiv.org/abs/2304.08069",
+    "type": "original paper",
+    "checked": "2026-11-03 via official/author page"
+  },
+  {
+    "key": "kitti",
+    "citation": "Geiger, Lenz and Urtasun. Are we ready for Autonomous Driving? The KITTI Vision Benchmark Suite. CVPR 2012.",
+    "url": "https://www.cvlibs.net/publications/Geiger2012CVPR.pdf",
+    "type": "original paper",
+    "checked": "2026-11-03 via official/author page"
+  },
+  {
+    "key": "v8",
+    "citation": "Ultralytics. YOLOv8 model documentation.",
+    "url": "https://docs.ultralytics.com/models/yolov8/",
+    "type": "official documentation",
+    "checked": "2026-11-03 via official/author page"
+  },
+  {
+    "key": "v11",
+    "citation": "Ultralytics. YOLO11 model documentation.",
+    "url": "https://docs.ultralytics.com/models/yolo11/",
+    "type": "official documentation",
+    "checked": "2026-11-03 via official/author page"
+  },
+  {
+    "key": "cocoeval",
+    "citation": "COCO Consortium. Official Python COCOeval implementation.",
+    "url": "https://github.com/cocodataset/cocoapi/blob/master/PythonAPI/pycocotools/cocoeval.py",
+    "type": "official repository",
+    "checked": "2026-11-03 via official/author page"
+  },
+  {
+    "key": "ultra",
+    "citation": "Ultralytics. Official framework source repository.",
+    "url": "https://github.com/ultralytics/ultralytics",
+    "type": "official repository",
+    "checked": "2026-11-03 via official/author page"
+  },
+  {
+    "key": "rtimpl",
+    "citation": "Ultralytics. RT-DETR model documentation.",
+    "url": "https://docs.ultralytics.com/models/rtdetr/",
+    "type": "official documentation",
+    "checked": "2026-11-03 via official/author page"
+  }
+]

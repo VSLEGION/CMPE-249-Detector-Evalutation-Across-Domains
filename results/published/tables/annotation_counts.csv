@@ -1,0 +1,97 @@
+class,dataset,instances
+dog,COCO,218
+potted plant,COCO,343
+tv,COCO,288
+bird,COCO,440
+cat,COCO,202
+horse,COCO,273
+sheep,COCO,361
+cow,COCO,380
+bottle,COCO,1025
+couch,COCO,261
+chair,COCO,1791
+dining table,COCO,697
+bicycle,COCO,316
+car,COCO,1932
+motorcycle,COCO,371
+airplane,COCO,143
+bus,COCO,285
+train,COCO,190
+boat,COCO,430
+person,COCO,11004
+stop sign,COCO,75
+umbrella,COCO,413
+tie,COCO,254
+sandwich,COCO,177
+bed,COCO,163
+cell phone,COCO,262
+refrigerator,COCO,126
+clock,COCO,267
+toothbrush,COCO,57
+truck,COCO,415
+traffic light,COCO,637
+fire hydrant,COCO,101
+parking meter,COCO,60
+bench,COCO,413
+frisbee,COCO,115
+skis,COCO,241
+snowboard,COCO,69
+skateboard,COCO,179
+surfboard,COCO,269
+wine glass,COCO,343
+cup,COCO,899
+fork,COCO,215
+knife,COCO,326
+spoon,COCO,253
+bowl,COCO,626
+banana,COCO,379
+apple,COCO,239
+orange,COCO,287
+broccoli,COCO,316
+carrot,COCO,371
+pizza,COCO,285
+cake,COCO,316
+toilet,COCO,179
+laptop,COCO,231
+mouse,COCO,106
+remote,COCO,283
+keyboard,COCO,153
+microwave,COCO,55
+oven,COCO,143
+toaster,COCO,9
+sink,COCO,225
+book,COCO,1161
+vase,COCO,277
+scissors,COCO,36
+teddy bear,COCO,191
+hair drier,COCO,11
+backpack,COCO,371
+handbag,COCO,540
+suitcase,COCO,303
+elephant,COCO,255
+zebra,COCO,268
+kite,COCO,336
+hot dog,COCO,127
+donut,COCO,338
+giraffe,COCO,232
+baseball bat,COCO,146
+baseball glove,COCO,148
+sports ball,COCO,263
+bear,COCO,71
+tennis racket,COCO,225
+pedestrian,KITTI native,296
+truck,KITTI native,79
+car,KITTI native,1860
+cyclist,KITTI native,114
+misc,KITTI native,52
+van,KITTI native,171
+tram,KITTI native,44
+person_sitting,KITTI native,9
+person,KITTI mapped,296
+truck,KITTI mapped,79
+car,KITTI mapped,1860
+bicycle,KITTI mapped,114
+person,KITTI ablation,120
+truck,KITTI ablation,40
+car,KITTI ablation,740
+bicycle,KITTI ablation,38

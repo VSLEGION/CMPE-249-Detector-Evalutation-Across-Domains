@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cmpe249-detector-evaluation"
+version = "1.0.0"
+description = "Reproducible COCO-style evaluation of YOLOv8n, YOLO11n and RT-DETR-L"
+requires-python = ">=3.11"
+dependencies = ["numpy", "Pillow", "PyYAML", "pycocotools", "matplotlib", "ultralytics"]
+
+[project.optional-dependencies]
+reports = ["reportlab", "pypdf"]
+dev = ["black>=24.10"]
+
+[project.scripts]
+cmpe249-eval = "cmpe249_eval.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.black]
+line-length = 88
+target-version = ["py311"]
+
